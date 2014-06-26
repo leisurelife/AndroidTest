@@ -4,12 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     <Button 
+        android:id="@+id/toast"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="1111"/>
+        android:text="改变button值"/>
      <Button 
+         android:id="@+id/cancle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="2222"/>
+        android:text="退出"/>
 
 </LinearLayout>
